@@ -490,12 +490,26 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
-
+#myVideo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100vw;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+}
 
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/ezgif.com-video-to-gif.gif) top center;
+  background: url(../img/vid6.mp4) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -1722,11 +1736,19 @@ h4{
   #schedule .nav-tabs a {
     padding: 8px 30px;
   }
+  #intro h1 {
+    font-size: 28px;
+  }
+
 }
 
 @media (max-width: 460px) {
   #subscribe button {
     margin-top: 10px;
   }
+  #intro h1 {
+    font-size: 28px;
+  }
+
 }
 
