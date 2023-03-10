@@ -41,7 +41,7 @@ body {
 }
 
 a {
-  color: #3eac35;
+  color: #ff8800 ;
   transition: 0.5s;
 }
 
@@ -51,7 +51,7 @@ a:active{
   color: #f8234a;
 }
 a:focus {
-  color: #3eac35;
+  color: #ff8800 ;
   outline: none;
   text-decoration: none;
 }
@@ -97,7 +97,7 @@ h3{
 .back-to-top {
   position: fixed;
   display: none;
-  background: #3eac35;
+  background: #ff8800 ;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -114,13 +114,13 @@ h3{
 }
 
 .back-to-top:focus {
-  background: #76ba1b;
+  background: #cc4916;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #76ba1b;
+  background: #cc4916;
   color: #fff;
 }
 
@@ -139,7 +139,7 @@ h3{
   display: block;
   width: 60px;
   height: 5px;
-  background: #3eac35;
+  background: #ff8800 ;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -200,7 +200,7 @@ h3{
 }
 
 #header #logo h1 span {
-  color: #3eac35;
+  color: #ff8800 ;
 }
 
 #header #logo h1 a,
@@ -313,7 +313,7 @@ h3{
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #3eac35;
+  background-color: #ff8800 ;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -327,10 +327,10 @@ h3{
 
 .nav-menu li.buy-tickets a {
   color: #fff;
-  background: #3eac35;
+  background: #ff8800 ;
   padding: 7px 22px;
   border-radius: 5px;
-  border: 2px solid #3eac35;
+  border: 2px solid #ff8800 ;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-left: 8px;
@@ -371,7 +371,7 @@ h3{
 }
 
 .nav-menu ul li:hover > a {
-  background: #3eac35;
+  background: #ff8800 ;
   color: #fff;
 }
 
@@ -438,7 +438,7 @@ h3{
 }
 
 #mobile-nav ul li a:hover {
-  color: #3eac35;
+  color: #ff8800 ;
 }
 
 #mobile-nav ul li li {
@@ -455,11 +455,11 @@ h3{
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #3eac35;
+  color: #ff8800 ;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #3eac35;
+  color: #ff8800 ;
 }
 
 #mobile-body-overly {
@@ -491,10 +491,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Intro Section
 --------------------------------------------------------------*/
 
+
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/intro-bg.jpg) top center;
+  background: url(../img/ezgif.com-video-to-gif.gif) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -502,7 +503,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro:before {
   content: "";
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -542,7 +543,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 span {
-  color: #3eac35;
+  color: #ff8800 ;
 }
 
 #intro p {
@@ -554,7 +555,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#3eac35 50%, rgba(101, 111, 150, 0.15) 52%);
+  background: radial-gradient(#ff8800  50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -601,7 +602,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn:hover::after {
-  border-left: 15px solid #3eac35;
+  border-left: 15px solid #ff8800 ;
   -webkit-transform: scale(20);
   transform: scale(20);
 }
@@ -639,11 +640,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #3eac35;
+  border: 2px solid #ff8800 ;
 }
 
 #intro .about-btn:hover {
-  background: #3eac35;
+  background: #ff8800 ;
   color: #fff;
 }
 
@@ -686,11 +687,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #about {
-  background: url("../img/about-bg.jpg");
+  /* background: url("../img/about-bg.jpg"); */
   background-size: cover;
   overflow: hidden;
   position: relative;
-  color: #fff;
+  color: #000000;
   padding: 60px 0 40px 0;
 }
 
@@ -772,7 +773,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .speaker .details a:hover {
-  color: #3eac35;
+  color: #ff8800 ;
 }
 
 #speakers .speaker:hover .details {
@@ -807,7 +808,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers-details .details .social a:hover {
-  background: #3eac35;
+  background: #ff8800 ;
   color: #fff;
 }
 
@@ -822,7 +823,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .item .about-btn{
-  color: #3eac35;
+  color: #ff8800 ;
 }
 
 /*--------------------------------------------------------------
@@ -856,7 +857,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .nav-tabs a.active {
-  background-color: #3eac35;
+  background-color: #ff8800 ;
   color: #fff;
 }
 
@@ -912,14 +913,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #schedule .schedule-item h4 span {
   font-style: italic;
-  color: #3eac35;
+  color: #ff8800 ;
   font-weight: normal;
   font-size: 16px;
 }
 
 #schedule .schedule-item p {
   font-style: italic;
-  color: #3eac35;
+  color: #ff8800 ;
   margin-bottom: 0;
 }
 
@@ -1029,7 +1030,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #hotels a:hover {
-  color: #3eac35;
+  color: #ff8800 ;
 }
 
 #hotels .stars {
@@ -1079,7 +1080,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #gallery .owl-dot.active {
-  background-color: #3eac35;
+  background-color: #ff8800 ;
 }
 
 #gallery .gallery-carousel .owl-stage-outer {
@@ -1087,7 +1088,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #gallery .gallery-carousel .center {
-  border: 6px solid #3eac35;
+  border: 6px solid #ff8800 ;
   margin: -10px;
   box-sizing: content-box;
   padding: 4px;
@@ -1177,7 +1178,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list a.collapse {
-  color: #3eac35;
+  color: #ff8800 ;
 }
 
 #faq #faq-list a.collapsed {
@@ -1236,7 +1237,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 0;
   padding: 9px 25px;
   cursor: pointer;
-  background: #3eac35;
+  background: #ff8800 ;
   color: #fff;
   transition: all 0.3s ease;
   outline: none;
@@ -1245,7 +1246,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #subscribe button:hover {
-  background: #76ba1b;
+  background: #cc4916;
 }
 
 /*--------------------------------------------------------------
@@ -1297,7 +1298,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 5px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #3eac35;
+  background-color: #ff8800 ;
   border: 0;
   color: #fff;
 }
@@ -1313,7 +1314,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #buy-tickets .card .btn:hover {
-  background-color: #76ba1b;
+  background-color: #cc4916;
 }
 
 #buy-tickets #buy-ticket-modal input,
@@ -1326,13 +1327,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #3eac35;
+  background-color: #ff8800 ;
   border: 0;
   color: #fff;
 }
 
 #buy-tickets #buy-ticket-modal .btn:hover {
-  background-color: #76ba1b;
+  background-color: #cc4916;
 }
 
 /*--------------------------------------------------------------
@@ -1352,7 +1353,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #3eac35;
+  color: #ff8800 ;
 }
 
 #contact .contact-info address,
@@ -1374,7 +1375,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-info a:hover {
-  color: #3eac35;
+  color: #ff8800 ;
 }
 
 #contact .contact-address,
@@ -1384,8 +1385,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #3eac35;
-  border: 1px solid #3eac35;
+  color: #ff8800 ;
+  border: 1px solid #ff8800 ;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1426,7 +1427,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #3eac35;
+  background: #ff8800 ;
   border: 0;
   padding: 10px 40px;
   color: #fff;
@@ -1436,7 +1437,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #76ba1b;
+  background: #cc4916;
 }
 
 /*--------------------------------------------------------------
@@ -1498,7 +1499,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #3eac35;
+  background: #ff8800 ;
   color: #fff;
 }
 
@@ -1509,7 +1510,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
-  border-bottom: 2px solid #3eac35;
+  border-bottom: 2px solid #ff8800 ;
 }
 
 #footer .footer-top .footer-links {
@@ -1524,7 +1525,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 5px;
-  color: #3eac35;
+  color: #ff8800 ;
   font-size: 18px;
 }
 
@@ -1547,7 +1548,7 @@ h4{
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #3eac35;
+  color: #ff8800 ;
 }
 
 #footer .footer-top .footer-contact {
@@ -1571,7 +1572,7 @@ h4{
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #3eac35;
+  background: #ff8800 ;
   border: 0;
   width: 35%;
   padding: 6px 0;
@@ -1582,7 +1583,7 @@ h4{
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #76ba1b;
+  background: #cc4916;
 }
 
 #footer .copyright {
