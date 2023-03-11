@@ -337,6 +337,7 @@ h3{
   margin-top: 2px;
   line-height: 1;
   font-size: 13px;
+  
 }
 
 .nav-menu li.buy-tickets a:hover {
@@ -507,7 +508,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: translateX(-50%) translateY(-50%);
   background-size:auto;
   overflow: hidden;
-  
+  align-items: center;
 }
 
 #intro.cready{
@@ -754,6 +755,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #speakers {
   padding: 60px 0 30px 0;
+  background-image:url(../img/pexels-athena-2582937.jpg);
+ box-shadow:0 0 0 1000px rgba(0,0,0,0.2);
+  align-self: center;
+  width: 100%;
+  height: 100vh;
+  /* background: url(../img/ezgif.com-video-to-gif.gif) top center; */
+  background-size:cover;
+  background-position:center;
+  
+  overflow: hidden;
 }
 
 #speakers .speaker {
@@ -1277,6 +1288,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #buy-tickets {
   padding: 60px 0;
+  background-color:white;
+
 }
 
 #buy-tickets .card {
