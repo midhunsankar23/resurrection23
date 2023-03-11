@@ -487,26 +487,31 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
+
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
-#myVideo {
-  position: relative;
+#intro.myVideo {
+  position:relative;
   top: 50%;
   left: 50%;
   
-  min-width: auto;
-  min-height:auto;
-  width: 100vw;
+  min-width: 100%;
+  min-height:100%;
+  width: 100%;
   height: auto;
   z-index: 0;
   -ms-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background-size:contain;
+  background-size:auto;
   overflow: hidden;
-  position: relative;
+  
+}
+
+#intro.cready{
+  width: 100px;
 }
 
 #intro {
@@ -515,7 +520,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   /* background: url(../img/ezgif.com-video-to-gif.gif) top center; */
   background-size: cover;
   overflow: hidden;
-  position: relative;
+  position:relative;
 }
 
 #intro:before {
@@ -1647,6 +1652,9 @@ h4{
   #intro {
     background-attachment: fixed;
   }
+  #myVideo{
+    -ms-flex-item-align: auto;
+  }
 
   #about {
     background-attachment: fixed;
@@ -1726,6 +1734,7 @@ h4{
   }
 }
 
+/* pixel and normal devices */
 @media (max-width: 574px) {
   #venue .venue-info h3 {
     font-size: 24px;
@@ -1735,22 +1744,13 @@ h4{
   }
 }
 
+/* galaxy s8 */
 @media (max-width: 480px) {
   #schedule .nav-tabs a {
     padding: 8px 30px;
   }
   #intro h1 {
-    font-size: 28px;
-  }
-
-}
-
-@media (max-width: 460px) {
-  #subscribe button {
-    margin-top: 10px;
-  }
-  #intro h1 {
-    font-size: 28px;
+    font-size: 25px;
   }
 
 }
