@@ -491,11 +491,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Intro Section
 --------------------------------------------------------------*/
 #myVideo {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
-  min-width: 100%;
-  min-height: 100%;
+  
+  min-width: auto;
+  min-height:auto;
   width: 100vw;
   height: auto;
   z-index: 0;
@@ -503,7 +504,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background-size: cover;
+  background-size:contain;
+  overflow: hidden;
+  position: relative;
 }
 
 #intro {
