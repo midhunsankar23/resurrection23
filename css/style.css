@@ -767,6 +767,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
 }
 
+
 #speakers .speaker {
   position: relative;
   overflow: hidden;
@@ -858,7 +859,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 #speakers .item .about-btn{
   color: #ff8800 ;
 }
-
+#speakers .item{
+  border-radius: 50px;
+}
 /*--------------------------------------------------------------
 # Schedule Section
 --------------------------------------------------------------*/
@@ -1288,7 +1291,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #buy-tickets {
   padding: 60px 0;
-  background-color:white;
+  background-color:	#D3D3D3;
 
 }
 
@@ -1334,7 +1337,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 10px 40px;
   transition: all 0.2s;
   background-color: #ff8800 ;
-  border: 0;
   color: #fff;
 }
 
@@ -1366,9 +1368,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 0;
   color: #fff;
 }
-
+/* #buy-tickets .container .row .card .card-body1{
+  background-image: url(../img/valorant.webp);
+}
+#buy-tickets .container .row .card .card-body2{
+  background-image: url(../img/pes.webp);
+} */
 #buy-tickets #buy-ticket-modal .btn:hover {
   background-color: #cc4916;
+}
+#buy-tickets .container .row .card{
+  border-radius: 25px;
+  position: relative;
+  align-items: center;
 }
 
 /*--------------------------------------------------------------
